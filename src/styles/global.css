@@ -1,0 +1,62 @@
+:root {
+  /*===================(Colors)==============*/
+  /* Primary colors */
+  --color-primary-orange: #fa7436;
+  --color-primary-black: #222222;
+
+  /* Secondary colors */
+  --color-secondary-blue: #4086f4;
+  --color-secondary-yellow: #ffb60a;
+
+  /* Text colors */
+  --text-color-dark: #444444;
+  --text-color-light: #666666;
+
+  /* Icon colors */
+  --icon-color-dark: #999999;
+  --icon-color-light: #e5e5e5;
+
+  /* Background colors */
+  --bg-light-beige: #fefcfb;
+  --bg-light-gray: #f7f8fc;
+
+  /*===================(Typography)==============*/
+  /* Headlines */
+  --font-size-h1: 64px;
+  --font-size-h2: 48px;
+  --font-size-h3: 24px;
+
+  /* Titles */
+  --font-size-title: 24px;
+
+  /* Paragraphs */
+  --font-size-p1: 20px;
+  --font-size-p2: 18px;
+  --font-size-content: 16px;
+  --font-size-paragraph: 16px;
+
+  /* Navigation Menu */
+  --font-size-nav-menu: 16px;
+}
+
+/* global styles  */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+html,
+body {
+  min-height: 100%;
+}
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+}
+.layout {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav {
+  font-size: var(--font-size-nav-menu);
+}

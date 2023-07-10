@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "logo": {
+      "text": "Trabook - Get started your exciting journey with us.",
+      "image": "../images/trabook-logo.svg"
+    },
+    "linksSection1": [
+      { "text": "Home", "url": "/" },
+      { "text": "About", "url": "#" },
+      { "text": "Destination", "url": "#" },
+      { "text": "Tour", "url": "#" },
+      { "text": "Blog", "url": "#" }
+    ],
+    "linksSection2": [
+      { "text": "Login", "url": "#" },
+      { "text": "Sign up", "url": "#" }
+    ]
+  },
+
+  "footer": {
+    "sections": [
+      {
+        "title": "Section 1",
+        "links": [
+          { "text": "Link 1", "url": "/link1" },
+          { "text": "Link 2", "url": "/link2" }
+        ]
+      },
+      {
+        "title": "Section 2",
+        "links": [
+          { "text": "Link 3", "url": "/link3" },
+          { "text": "Link 4", "url": "/link4" }
+        ]
+      }
+    ]
+  },
+  "otherData": {
+    "key1": "value1",
+    "key2": "value2"
+  }
+}
